@@ -1,0 +1,25 @@
+@media screen and (max-width: 600px) {
+    .header-title {
+        font-size: 2.3rem;
+    }
+    .search {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .header {
+        align-items: center;
+        flex-direction: column;
+    }
+    .header-title {
+        font-size: 2rem;
+    }
+    .footer { 
+        flex-direction: column;
+        gap: 10px;
+    }
+}
